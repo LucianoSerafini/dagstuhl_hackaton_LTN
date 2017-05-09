@@ -1,0 +1,104 @@
+;; RefTeX parse info file
+;; File: /Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex
+;; User: luciano (luciano serafini)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi t)
+
+(bibview-cache)
+
+(master-dir . "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/")
+
+(label-numbers)
+
+(bof "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex")
+
+(bof "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/def.tex")
+
+(eof "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/def.tex")
+
+(toc "toc" "    1 Statistical Relational Learning" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil 2 "1" "\\section{Statistical Relational Learning}" 1637)
+
+(bof "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/Fig_MindmapSRL.tex")
+
+("Fig:SRL-mindmap" "f" "The SRL mindmap" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/Fig_MindmapSRL.tex" 1158)
+
+(eof "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/Fig_MindmapSRL.tex")
+
+("180:{\\color{blue" "s" "person},circle] (kurt) {Kurt}; \\node[fill=blue!20,label=0:{\\color{blue}car},right=of kurt,draw,circl" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{blue" "s" "car},right=of kurt,draw,circle] (car2) {Car2}; \\node[fill=blue!20,label=0:{\\color{blue}town},below=o" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{blue" "s" "town},below=of kurt,draw,circle] (rome) {Rome}; \\node[fill=blue!20,label=0:{\\color{blue}company},bel" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{blue" "s" "company},below=of car2,draw,circle] (fca) {FCA}; \\node[fill=blue!20,label=0:{\\color{blue}town},below" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{blue" "s" "town},below=of fca,draw,circle] (detroit) {Detroit}; \\node[fill=red!20,label=45:{\\color{red}dollar}," "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("45:{\\color{red" "s" "dollar},above=of car2,draw,circle] (ioooo) {10000}; \\node[fill=red!20,label=45:{\\color{red}dollar},a" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("45:{\\color{red" "s" "dollar},above=of kurt,draw,circle] (ivooo) {15342}; \\node[fill=red!20,label=45:{\\color{red}hp},right" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("45:{\\color{red" "s" "hp},right=of ioooo,draw,circle] (ieo) {130.00}; \\node[fill=red!20,label=0:{\\color{red}$km^2$},below=" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{red" "s" "$km^2$},below=of rome,draw,circle] (vooo) {53.72}; \\node[fill=red!20,label=45:{\\color{red}years},lef" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("45:{\\color{red" "s" "years},left=of ivooo,draw,circle] (ea) {\\ \\ 34\\ \\ \\ }; \\draw[->,blue] (kurt) to node[below]{owns} (c" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("90:{\\color{red" "s" "date},left=of livesin,draw,circle] (start) {2/2/95}; \\draw[->,red] (livesin) to node[above]{since} (" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("180:{\\color{blue" "s" "person},circle] (kurt) {Kurt}; \\node[fill=blue!20,label=0:{\\color{blue}car},right=of kurt,draw,circl" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{blue" "s" "car},right=of kurt,draw,circle] (car2) {Car2}; \\node[fill=blue!20,label=0:{\\color{blue}town},below=o" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{blue" "s" "town},below=of kurt,draw,circle] (rome) {Rome}; \\node[fill=blue!20,label=0:{\\color{blue}company},bel" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{blue" "s" "company},below=of car2,draw,circle] (fca) {FCA}; \\node[fill=blue!20,label=0:{\\color{blue}town},below" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{blue" "s" "town},below=of fca,draw,circle] (detroit) {Detroit}; \\node[fill=red!20,label=45:{\\color{red}dollar}," "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("45:{\\color{red" "s" "dollar},above=of car2,draw,circle] (ioooo) {10000}; \\node[fill=red!20,label=45:{\\color{red}dollar},a" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("45:{\\color{red" "s" "dollar},above=of kurt,draw,circle] (ivooo) {15342}; \\node[fill=red!20,label=135:{\\color{red}hp},righ" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("135:{\\color{red" "s" "hp},right=of ioooo,draw,circle] (ieo) {130.00}; \\node[fill=red!20,label=0:{\\color{red}$km^2$},below=" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{\\color{red" "s" "$km^2$},below=of rome,draw,circle] (vooo) {53.72}; \\node[fill=red!20,label=45:{\\color{red}years},lef" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("45:{\\color{red" "s" "years},left=of ivooo,draw,circle] (ea) {\\ \\ 34\\ \\ \\ }; \\draw[->,blue] (kurt) to node[below]{owns} (c" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("90:{\\color{red" "s" "date},left=of livesin,draw,circle] (start) {2/2/95}; \\draw[->,red] (livesin) to node[above]{since} (" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+(toc "toc" "    2 Semantic Image Interpretation" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil 2 "2" "\\section{Semantic Image Interpretation}" 8180)
+
+("ball" "s" "](ball){$b_1$}; \\node[draw=black, right=.7of ball, circle, fill=yellow, text=black, label={player}](" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("player" "s" "](playerbr){$b_2$}; \\node[draw=black, right=1.5of playerbr, circle, fill=red, text=white, label=0:{p" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{player" "s" "](playerge){$b_3$}; \\node[draw=black, below=of playerbr, circle, fill=pink, text=black, label=180:{l" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("180:{leg" "s" "](playerbrleg){$b_4$}; \\node[draw=black, below left=1 and .2 of playerge, circle, fill=magenta, text" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("180:{leg" "s" "](playergeleg1){$b_5$}; \\node[draw=black, below right=1 and .2 of playerge, circle, fill=blue!40, te" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("180:{leg" "s" "](playergeleg2){$b_6$}; \\node[draw=black, above right=.7 and .2of playerge, circle, fill=green, text" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("number" "s" "](number){$b_7$}; \\node[draw=black, above=of playerbr, circle, label=0:{logo}](logo){$b_8$}; \\draw[-" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("0:{logo" "s" "](logo){$b_8$}; \\draw[->] (playerbr) -- node[below] {kicks} (ball); \\draw[->] (playerbrleg) -- node[" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+(toc "toc" "      2.1 Language" "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil 3 "2.1" "\\subsection{Language}" 11478)
+
+("$\\K$" "s" "] (kb) {\\begin{tabular}{l} \\color{blue} company(A), company(B)," "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+("$Q$" "s" "] (q) {\\begin{tabular}{l} $LTN_{K,\\Theta^*}$(\\color{blue} $worksfor(Chris,B)$) " "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex" nil)
+
+(eof "/Users/luciano/articoli/LogicTensorNetworks/SAC-COCO-2017/slides/slides.tex")
+))
+

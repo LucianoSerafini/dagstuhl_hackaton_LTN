@@ -1,0 +1,28 @@
+\begin{figure}[ht]
+\begin{center}
+%\hspace{-1cm}
+\begin{tikzpicture}[small mindmap, scale=.75]
+ \path[mindmap,concept color=black,text=white]
+
+ [root concept/.append style={concept color=black!40,minimum size=1.5cm},
+ level 1 concept/.append style={every child/.style={concept color=black!100,minimum size=.7cm, sibling angle=60}},
+ level 2 concept/.append style={every child/.style={concept color=red,minimum size=.6cm, sibling angle=60}},
+%level 3 concept/.append style={every child/.style={concept color=black!40,minimum size=0.7cm, sibling angle=60}},
+ mindmap]
+ node[concept]{AI} [clockwise from=0, grow =-50]
+ child[]{node[concept,minimum size=1cm] (KRR) {KRR}
+   child[grow=-25] {node[concept] (SRL) {\Large SRL}}}
+ child[] { node[concept] (ML) {Learning}}
+ child[] { node[concept] (Pl) {Planning}}
+ child[] { node[concept] {NLP}}
+ child[] { node[concept] {Perception}}
+ child[] { node[concept] {\dots}};
+\begin{pgfonlayer}{background}
+ \path (SRL) to[circle connection bar switch color=from (black!60) to (black!80)] (ML);
+ \path (SRL) to[circle connection bar switch color=from (black!60) to (black!80)] (KRR);
+\end{pgfonlayer}
+
+\end{tikzpicture}
+%\caption{The SRL mindmap\label{Fig:SRL-mindmap}}
+\end{center}
+\end{figure}

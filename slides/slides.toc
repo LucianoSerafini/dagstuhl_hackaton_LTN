@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Statistical Relational Learning}{2}{0}{1}
+\beamer@sectionintoc {2}{Semantic Image Interpretation}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Language}{11}{0}{2}

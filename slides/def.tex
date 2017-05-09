@@ -1,0 +1,359 @@
+% the following package is optional:
+%\usepackage{latexsym} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\wrt{wrt.\xspace}
+
+\definecolor{yellow-dark}{rgb}{.9,.9,0}
+%\definecolor{Light}{gray}{.80}
+%\definecolor{Dark}{gray}{.20}
+\newcommand<>{\gl}[1]{\only#2{\colorbox{Light}}{\only#2{\textcolor{Dark}}{#1}}}
+\newcommand<>{\gd}[1]{\only#2{\colorbox{Dark}}{\only#2{\textcolor{white}}{#1}}}
+\newcommand<>{\tbf}[1]{\only#2{\textbf{#1}}}
+\newcommand<>{\redd}[1]{{\only#2{\color[rgb]{1,0,0}}#1}}
+\newcommand<>{\bluee}[1]{{\only#2{\color[rgb]{0,0,1}}#1}}
+\newcommand<>{\greenn}[1]{{\only#2{\color[rgb]{0,1,0}}#1}}
+\newcommand<>{\grayy}[1]{{\only#2{\color[rgb]{.6,.6,.6}}#1}}
+
+\def\red{\color[rgb]{1,0,0}}
+\def\black{\color[rgb]{0,0,0}}
+\def\gray{\color[rgb]{.6,.6,.6}}
+\def\K{\texttt{K}}
+\def\,{\texttt{,}}
+%\def\'{\texttt{'}}
+\def\*{\texttt{*}}
+%\def\pgfline\alt<6>{\pgfsetlinewidth{1pt}}{\pgfsetlinewidth{.4pt}}
+\newcommand<>{\lbf}{\alt#1{\pgfsetlinewidth{1pt}}{\pgfsetlinewidth{.4pt}}}
+\newcommand<>{\lbff}{\alt#1{\pgfsetlinewidth{1.6pt}}{\pgfsetlinewidth{.7pt}}}
+\def\ll{\pgfsetlinewidth{.4pt}}
+
+\def\qed{ \hfill{$\Box$}}
+\definecolor{Light}{gray}{.80}
+\definecolor{Dark}{gray}{.20}
+\def\gl#1{\colorbox{Light}{\textcolor{Dark}{#1}}}
+\def\gd#1{\colorbox{Dark}{\textcolor{white}{#1}}}
+\def\O{\mathcal{O}}
+\def\Q{\mathcal{Q}}
+\def\R{\mathcal{R}} % a mathematical relation
+\def\S{\mathcal{S}}
+
+\def\P{\mathcal{P}}
+\def\F{\mathcal{F}}
+\def\PP{\mathsf{\Pi}}
+\def\I{\mathscr{I}}
+\def\RF{R^{F*}} %a fuzzy instance of R
+\def\QF{Q^{F*}} %a fuzzy instance of Q
+\def\adr{\rm{adr}}
+\def\PF{{\rm PF}}
+\def\T{\mathcal T} %set of base types of attributes
+%\def\Dom{\rm Dom}
+
+\def\Int{\ensuremath{\I}}  % Interpretation
+\def\IntP{\ensuremath{\I_\PS}}
+\def\Q{\mathcal{Q}}
+\def\DBR{\ensuremath{\bm{R}}} % DB schema R
+\def\DBI{\ensuremath{\bm{I}}} % DB instance I
+\def\DBS{{\ensuremath{\bm{S}}}} % DB schema S
+\def\DBJ{{\ensuremath{\bm{J}}}} % DB instance J
+\def\ATT{{\ensuremath{\bm{A}}}} % relation attributes
+
+
+\def\eo{\mathrel{\accentset{\text{e}}{\sqsubseteq}}}
+\def\SPM{\ensuremath{\mathscr{M}}}  % set of preference models
+\def\PMWS#1{\ensuremath{\succeq^{\bm{W}}_{#1}}}
+\def\DB{\ensuremath{\bm{D}}}
+\def\I{\ensuremath{\mathscr{I}}}
+
+\DeclareMathOperator\OPT{Opt} \DeclareMathOperator\dom{dom}
+\DeclareMathOperator\PI{PI} \DeclareMathOperator\Inst{Inst}
+
+ \def\EX1{Non-IR cameras shooting a lit gate area\xspace}
+ \def\BR#1#2{\ensuremath{\left\langle #1,#2\right\rangle}}
+ \def\PP{\ensuremath{\mathrel{\succeq}}}
+ \def\NPP{\ensuremath{\mathrel{\nsucceq}}}
+ \def\AW{{\ensuremath{\Omega}}} %acceptable world
+ \def\PS{{\ensuremath{\mathcal{P}}\xspace}}
+ \def\LP{\ensuremath{\mathcal{L}_{\PS}}}
+
+\newdimen\radius
+
+\def\mgm{\mathrel{{}^m\!\!>^m}}
+\def\mgM{\mathrel{{}^m\!\!>^M}}
+\def\Mgm{\mathrel{{}^M\!\!>^m}}
+\def\MgM{\mathrel{{}^M\!\!>^M}}
+\def\mgeqm{\mathrel{{}^m\!\!\geq^m}}
+\def\mgeqM{\mathrel{{}^m\!\!\geq^M}}
+\def\Mgeqm{\mathrel{{}^M\!\!\geq^m}}
+\def\MgeqM{\mathrel{{}^M\!\!\geq^M}}
+%\def\mgeqcm{\mathrel{{}^m\!\!\geq^m_c}}
+%\def\mgeqcM{\mathrel{{}^m\!\!\geq^M_c}}
+%\def\Mgeqcm{\mathrel{{}^M\!\!\geq^m_c}}
+%\def\MgeqcM{\mathrel{{}^M\!\!\geq^M_c}}
+
+\def\prm{{\ensuremath{\mathop{\pi}}}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\MLN{MLN}
+\def\HMLN{HMLN}
+\def\hMLN{(H)MLN}
+
+\def\VMLN{VMLN}
+\def\SemCla{SemCla} % the prototype implementation
+\def\RHS{RHS}  % right-hand side (of an equation)
+\def\LHS{LHS}  % left-hand side (of an equation)
+\def\wlg{w.l.o.g.} % without loss of generality
+\def\Wlg{W.l.o.g.} % without loss of generality
+\def\ae{a.e.} % almost everywhere
+\def\wff{wff} % well formed formula
+\def\KFA{known functions assumption} % a representation assumption 
+\def\DCA{domain closure assumption} % a representation assumption 
+\def\KF{known functions} 
+\def\DC{domain closure} 
+\def\UNA{unique names assumption} % a representation assumption
+
+\def\Sorts{\ensuremath{\mathit{Sorts}}}
+\def\Symbols{\ensuremath{\mathit{Symbols}}}
+\def\type{\ensuremath{\mathit{type}}}
+\def\Ind{\ensuremath{I}} % Indicator function
+
+\def\Ar{\ensuremath{\mathit{Ar}}}
+\def\DD{\ensuremath{D}}  % the domain of discourse of Interpretations
+\def\Interp{\ensuremath{\mathcal{I}}} % Interpretation
+\def\InterpD{\ensuremath{\Interp|_d}} % discrete part of an Interpretation
+\def\InterpC{\ensuremath{\Interp|_c}} % continuous part of an Interp.
+\def\AllInterp{\ensuremath{\mathscr{I}}} % th set of all Interpretations
+\def\vel{\ensuremath{\mathrm{or}}} % semantical inclusive OR
+\def\at{\ensuremath{\mathrm{and}}} % semantical AND
+\def\xor{\ensuremath{\mathrm{xor}}} % XOR
+\def\val{\ensuremath{v}} % valuation -- a truth value assignment
+\def\HI{\ensuremath{H_\Interp}}  % Herbrand interpretation
+
+
+\def\LL{\ensuremath{\mathcal{L}}}  % FOL language
+\def\Theory{\ensuremath{\mathcal{T}}} % FOL theory
+\def\nnconst{\ensuremath{a}} % a new non-numeric constant of \LL 
+\def\ext{\text{\nnconst}}  % extension of \Theory: \Theory_\ext
+\newcommand{\Theories}[1]{\ensuremath{\bm{\Theory}_{\!\!\!#1}}} % a vector of theories
+\def\Tiid{\ensuremath{\Theory_1}}    % Theory_2
+\def\Tiiid{\Theories{}}  % <\Theory_1,\Theory_2,\Obs>
+\def\enumq{Q}  % enumerate Queries in compactenum, e.g., (Q-1.), (Q-2.), etc.
+%\def\Theories{\ensuremath{\bm{\Theory}}} % a vector of theories
+\def\NT{\ensuremath{\mathscr{D}}}  % numeric terms
+\def\nt{\ensuremath{F}}  % a numeric term
+\def\numTerm{dependence term}  % original numeric term
+\def\NumTerm{Dependence term}  % original numeric term
+\def\NumTERM{Dependence Term}
+\def\numVect{dependence vector}  % dependence vector
+\def\nVect{numeric vector}  % numeric vector
+\def\OBS{\ensuremath{\bm{D}}}  % Observations: data with values \Obs
+\def\Obs{\ensuremath{\bm{d}}}  % Observations - values
+\def\rvect{\ensuremath{\vect{x}}} % vector of random variables
+\def\yvect{\ensuremath{\vect{y}}} % vector of random variables
+
+\def\Rvect{\ensuremath{\vect{X}}} % random vector
+\def\Yvect{\ensuremath{\vect{Y}}} % random vector
+\def\Rvar{\ensuremath{X}} % vector of random variables
+\def\Zvect{\ensuremath{\vect{Z}}} % random vector
+\def\Dom{\ensuremath{\mathrm{Dom}}} % Domain
+\def\ArgMax{\mbox{\ensuremath{\mathrm{arg\, max}\;}}}
+\def\Indep{\ensuremath{\perp\!\!\!\perp}}  % stochastic independence  
+
+
+\def\M{\ensuremath{\mathcal{M}}} % A model (structure)
+\def\MM{\ensuremath{\mathscr{M}}} % A set of models (structures)
+\def\GG{\ensuremath{\mathscr{G}}} % A set of interpretations of function symbols
+\def\h{\ensuremath{\bm{h}}}
+\def\param{\ensuremath{\omega}}
+\def\prm{\ensuremath{\bm{\param}}} % matrix of parameters of all PDFs
+\def\Prm{\ensuremath{\bm{\Omega}}} % the domain of the matrix of parameters of all PDFs
+\def\wfce{\ensuremath{h}}  % the function used in the Def. of weight function w = h()*w_i()
+
+
+\def\OutcSpace{\ensuremath{\AllInterp}}  % sample (stat)/outcome (probability) space
+\def\OutcSpaceR{\ensuremath{\widetilde{\AllInterp}}}  % sample (stat)/outcome (probability) space restricted by Representation Assumptions
+\def\SigField{\ensuremath{\mathbb{I}}} % sigma-field
+%\def\prmm{\ensuremath{\bm{\vartheta}}}
+\def\MRF{\text{MRF}} % Markov random field 
+\def\GRF{\text{GRF}} % Gibbs random field
+\def\UndG{undirected graph}  % undirected graph
+\def\Exp{\ensuremath{\mathds{E}}}  % expectation
+\def\const{\text{const}} 
+\def\N{\ensuremath{\mathcal{N}}} % Normal distribution
+\def\bmu{\ensuremath{\bm{\mu}}}  %mean
+\def\bsigma{\ensuremath{\bm{\sigma}}} % variance
+\def\blambda{\ensuremath{\bm{\lambda}}} % precision
+\def\bpi{\ensuremath{\bm{\pi}}}
+
+\def\ba{\ensuremath{\bm{a}}} % vector of constants
+\def\bz{\ensuremath{\bm{z}}}
+%\def\beeta{\ensuremath{\bm{\eta}}}
+%\def\bxi{\ensuremath{\bm{\xi}}}
+\def\semcla{\textsf{SemCla}}
+\def\R{\ensuremath{\mathds{R}}}   % reals
+\def\Nn{\ensuremath{\mathds{N}}}   % natural numbers
+\def\BB{\ensuremath{\mathcal{B}}}   % Borel sigma-field
+\def\IndF{\ensuremath{\mathit{I}}}  % Indicator function
+
+\def\countM{\ensuremath{P_c}}  % counting measure
+\def\IcountM{\ensuremath{\nu_c}}  % induced counting measure
+\def\LebM{\ensuremath{m}}  % Lebesgue measure
+
+
+\def\Nat{\ensuremath{\mathds{N}}}  % Natural numbers
+\def\bgamma{\ensuremath{\bm\gamma}}
+\def\balpha{\ensuremath{\bm\alpha}}
+\def\bw{\ensuremath{\bm{w}}}
+%\def\bx{\ensuremath{\bm{x}}} % vector of variables
+\def\BetaD{\ensuremath{\mathrm{Beta}}}
+\def\Dir{\ensuremath{\mathrm{Dir}}}
+\def\Gam{\ensuremath{\mathrm{Gam}}}
+\def\nump{\ensuremath{\tau}}  % numeric property
+\def\numpV{\ensuremath{\vect{\nump}}}  % vector of numeric properties
+\def\numpS{\ensuremath{\bm{\nump}}}  % set of numeric properties
+
+\def\Nump{\ensuremath{\vect{G}}}  % interpretation of num. properties 
+\def\Clique{\ensuremath{\mathcal{C}}}  % clique in a graph
+\def\WWeights{\ensuremath{\bm{\mathrm{U}}}} % a matrix of weights
+\def\Weights{\ensuremath{\mathrm{U}}} % an element of a matrix of weights
+\def\PPf{\ensuremath{\bm{\mathrm{P}}}} % matrix-valued function 
+\def\Pf{\ensuremath{\mathrm{P}}} % an element of a matrix-values function
+
+%\def\npf{\ensuremath{{\delta}}}  % numeric property function
+%\def\ff{\ensuremath{s}}  % formula feature 
+\def\feature{\ensuremath{\eta}} % eta
+%\def\vv{\ensuremath{\mathbf{v}}}  % vector v
+\def\RHS{RHS}  % right hand side
+\def\Const{\ensuremath{\mathcal{O}}}  % set of constants
+\def\T{\mathrm{T}}  % transposition (a superscript of a vector or a matrix)
+\def\diag{\ensuremath{{\mathrm{diag}}}}  % diagonal matrix
+\def\bphi{\ensuremath{\bm\phi}}  % N x K matrix of mixture coefficients 
+\def\IND{\ensuremath{\mathds{1}}}
+\def\I{\ensuremath{\bm{\mathrm{I}}}}  % Identity matrix
+
+\def\PDF{PDF}  % probability density function
+\def\CDF{CDF}  % cumulative distribution function
+\def\cdf{\ensuremath{\mathcal{P}}}  % cumulative distribution function
+\def\pClique{\ensuremath{p_\Clique}} % \PDF of isolated Clique
+\def\MAP{\text{MAP}}
+
+\def\defined{\overset{\vartriangle}{=}}  % := 
+
+\newcommand{\comm}[1]{}  % to comment out a few words in the middle of a row
+\newcommand{\vcr}[1]{\ensuremath{\overrightarrow{#1}}} % vector with an arrow
+\newcommand{\vect}[1]{\ensuremath{\mathbf{#1}}}       % vector without an arrow
+%\def\PDFprm{\ensuremath{\vcr{\theta}}} 
+\newcommand{\PDFprm}[1]{\ensuremath{\vcr{\theta_{#1}}}}
+\newcommand{\Ran}[1]{{\ensuremath{\mathrm{Ran}{\,#1}}}}  % Range of a function
+
+
+\def\ones{\ensuremath{\vect{1}}}  % all-ones vector
+
+\newcommand{\exend}{\hfill \ensuremath{\triangleleft}}
+\newcommand{\remend}{\hfill \ensuremath{\diamond}}
+\newcommand{\defend}{\hfill \ensuremath{\diamond}}
+
+%\theoremstyle{definition}
+%\newtheorem{definition}{Definition}
+%\newtheorem{example}{Example}
+
+%\theoremstyle{remark}
+%\newtheorem{remark}{Remark}
+
+%\theoremstyle{plain}
+\newtheorem{hypothesis}{Hypothesis}
+%\newtheorem{proposition}{Proposition}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{corollary}{Corollary}
+\newtheorem{observation}{Observation}
+\newtheorem{assumption}{Assumption}
+
+\def\DBI{\ensuremath{\bm{I}}}
+
+%%%%%%%%%%%%%%%%%%% EXAMPLES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\true{\ensuremath{\mathit{true}}}
+\def\false{\ensuremath{\mathit{false}}}
+\def\Friends{\ensuremath{\mathit{Fr}}}
+\def\Friendss{\ensuremath{\mathit{Friends}}}
+\def\salary{\ensuremath{\mathit{sal}}}
+\def\ageDiff{\ensuremath{\mathit{age\_diff}}}
+\def\Age{\ensuremath{\mathit{age}}}
+\def\Diff{\ensuremath{\mathit{diff}}}  % difference
+\def\summ{\ensuremath{\mathit{sum}}}
+\def\Abs{\ensuremath{\mathit{abs}}}  % absolute value
+\def\Chris{\ensuremath{\mathit{Cole}}}
+\def\Bill{\ensuremath{\mathit{Bob}}}
+\def\Adam{\ensuremath{\mathit{Ann}}}
+\def\John{\ensuremath{\mathit{Eli}}}
+\def\Smokes{\ensuremath{\mathit{Sm}}} 
+\def\Smokess{\ensuremath{\mathit{Smokes}}}
+\def\cigarettes{\ensuremath{\mathit{cig}}}
+\def\cigarettess{\ensuremath{\mathit{cigarettes}}}
+\def\Cancer{\ensuremath{\mathit{Can}}}
+\def\Cancerr{\ensuremath{\mathit{Cancer}}}
+\def\Adult{\ensuremath{\mathit{Ad}}}
+\def\motherOf{\ensuremath{\mathit{motOf}}}
+\def\fatherOf{\ensuremath{\mathit{fatOf}}}
+\def\fatherOff{\ensuremath{\mathit{fatherOf}}}
+\def\num{\ensuremath{\mathit{num}}}  % number (e.g., of cigarettes)
+\def\CigSm{\ensuremath{\mathit{CigSm}}} % binary predicate symbol: cigSm(a,n), a smokes n cigarettes
+
+
+\newenvironment{lschange}{\color{blue}}{\color{black}}
+\newenvironment{intoApp}{\color[rgb]{0,.7,0}}{\color{black}}
+
+
+  \newcommand\gauss[2]{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}
+  \newcommand\gaussplot[4]{
+    \begin{tikzpicture}[baseline]
+  \begin{axis}[scale=.26,every axis plot post/.append style={
+  mark=none,domain=0:100,samples=50,smooth}, 
+  axis x line*=bottom,
+  axis y line*=left,
+  xlabel={\color{blue}{\color{red}\Age}(\Adam)},
+  enlargelimits=upper]
+  \addplot[olive,thick] {\gauss{#1}{#2}/#3};
+ \end{axis}
+ \node[olive] at (2,1.5) {#4}; 
+\end{tikzpicture}}
+
+
+\newcommand\gaussfill[6]{
+  \begin{tikzpicture}[baseline]
+  \begin{axis}[scale=.26,every axis plot post/.append style={
+  mark=none,samples=50,smooth}, 
+  axis x line=bottom,
+  axis y line=left,
+  xlabel={\color{blue}{\color{red}\Age}(\Adam)},
+  enlargelimits=upper]
+  \addplot[olive,thick,domain=0:100]{\gauss{#1}{#2}/#3}; 
+  \addplot[draw=none,name path=g,domain=#4:#5] {\gauss{#1}{#2}/#3};
+  \addplot[name path=b,domain=#4:#5]{0};
+  \addplot[fill=olive!30] fill between[of=g and b]; 
+\end{axis}
+ \node[olive] at (2,1.5) {#6};   
+\end{tikzpicture}}
+
+
+
+\newcommand\gaussfillp[6]{
+  \begin{tikzpicture}[baseline]
+  \begin{axis}[scale=.26,every axis plot post/.append style={
+  mark=none,samples=50,smooth}, 
+  axis x line=bottom,
+  axis y line=left,
+  xlabel={\color{blue}{\color{red}\Age}(\Adam)},
+  enlargelimits=upper]
+  \addplot[orange,thick,domain=0:100]{\gauss{#1}{#2}/#3}; 
+  \addplot[draw=none,name path=g,domain=#4:#5] {\gauss{#1}{#2}/#3};
+  \addplot[name path=b,domain=#4:#5]{0};
+  \addplot[fill=orange!30] fill between[of=g and b]; 
+\end{axis}
+ \node[orange] at (2,1.5) {#6};   
+\end{tikzpicture}}
+
+

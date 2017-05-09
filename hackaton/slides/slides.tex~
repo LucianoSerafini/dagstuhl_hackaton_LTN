@@ -1,0 +1,89 @@
+\documentclass[xcolor=pdftex,dvipsnames,table]{beamer}
+\usetheme{Boadilla}
+\usecolortheme{crane}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amscd}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\usepackage{centernot}
+\usepackage{mathrsfs} % x \mathscr fonts 
+\usepackage{bm}
+\usepackage{soul,xspace}
+\usepackage{marvosym}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepgflibrary{shapes.arrows}
+\usetikzlibrary{shapes.geometric,mindmap,fit}
+\usepgflibrary{shapes.misc}
+\usetikzlibrary{shadows}
+\usetikzlibrary{arrows}
+\usetikzlibrary{calc}
+\let\labelstyle=\textstyle
+\pgfdeclarelayer{background} \pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+%\usetikzlibrary{backgrounds}
+
+\usepgflibrary{decorations.pathmorphing}
+\usepgflibrary{decorations.text}
+
+\usetikzlibrary{calc,shapes.geometric,shapes.symbols}
+\usetikzlibrary{shapes.callouts}
+\usetikzlibrary{patterns}
+
+\def\G{\mathcal{\color{violet}G}}
+\def\R{\mathbb{R}}
+\def\bv{\mathbf{v}}
+\def\bu{\mathbf{u}}
+\def\res{\Rightarrow}
+\def\AO{Agg}
+\def\imp{\rightarrow}
+\newcommand{\argmax}{\mathop{\mathrm{argmax}}}
+
+\title{Learning and Reasoning in Logic Tensor Networks}
+\subtitle{Hackaton Proposal} 
+\author{Luciano Serafini\inst{1},
+  Artur d'Avila Garces\inst{2}}
+\institute{
+  \inst{1}Fondazione Bruno Kessler, Italy  \\
+  \inst{2}City University London, UK }
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+\begin{frame}
+  \frametitle{Requirements}
+  \begin{itemize}
+  \item install python 2.7 or 3.5
+  \item install tensorflow for CPU compatible with your python version
+    instructions at \url{https://www.tensorflow.org/install}
+  \item 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Task}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Data}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Method}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Expected results}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Evaluation}
+\end{frame}
+
+\end{document}

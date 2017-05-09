@@ -1,0 +1,10 @@
+\frametitle{LTN 101}
+  \begin{itemize}
+  \item install \texttt{python 2.7/3.5} or later;
+  \item install \texttt{tensorflow} instructions at \url{https://www.tensorflow.org/install};
+  \item get \texttt{logictensornetwork.py} and the code of the first
+    example by cloning the git repository\scriptsize
+    \begin{verbatim}
+      git clone http://gitlab.fbk.eu/serafini/dagstuhl_hackaton_on_LTN.git
+\end{verbatim}
+  \end{itemize}
